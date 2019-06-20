@@ -1,0 +1,477 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+/*----- header ----*/
+
+.navbar-brand{
+  width: 80px;
+  
+}
+.navbar-brand img{
+  width: 100%;
+}
+
+.header{
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.575),rgba(0, 0, 0, 0.575)),url('./img/anka-charity-hero.jpg');
+  
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+  
+}
+.navbar.navbar-expand-lg{
+  background-color: rgba(0,0,0,0.7);
+  color: black;
+  text-align: center;
+  float: right;
+  
+}
+
+.nav-wrap{
+  position: absolute;
+  left: 57%;
+}
+
+.hero-text-box{
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.hero-text-main{
+font-size: 1000%;
+text-transform: lowercase;
+animation-name: moveInLeft;
+animation-duration: 2s;
+}
+
+.hero-text-sub{
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  animation-name: moveInRight;
+animation-duration: 2s;
+}
+
+.hero-btn {
+  margin-top: 60px;
+  background-color: #EC5E87 !important;
+  border-color: #EC5E87 !important;
+
+}
+.donate-btn{
+  background-color: #EC5E87 !important;
+  border-color: #EC5E87 !important;
+  
+}
+
+.bottom-nav{
+  position: absolute;
+  top: 100%;
+  color: white;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.first{
+  background-color: #EC5E87;
+  padding-top: 30px;
+}
+
+.first a{
+color: white;
+}
+
+
+.first a:hover{
+  color: rgb(212, 212, 211);
+ }
+
+.middle{
+  background-color: #7DABF4;
+  padding-top: 30px;
+}
+
+.middle a{
+  color: white;
+ }
+ 
+ 
+ .middle a:hover{
+     color: rgb(212, 212, 211);
+    }
+
+.last{
+  background-color: #213E8C;
+  padding-top: 30px;
+}
+
+.last a{
+  color: white;
+ }
+ 
+ 
+ .last a:hover{
+     color: rgb(212, 212, 211);
+    }
+
+.bottom-nav-in{
+  height: 150px;
+}
+
+  /*----- header ----*/
+
+
+
+/*----- section-1 ----*/
+
+.sec-1{
+  background-color: #213E8C;
+  text-align: center;
+  color: white;
+
+}
+
+.sec-1-text-box{
+padding: 6em;
+}
+
+
+
+.sec-1-para{
+  font-size: 130%;
+  max-width: 55em;
+  margin: 1% auto 2% auto;
+}
+
+
+/*----- section-1 ----*/
+
+/*----- event ----*//*----- event ----*/
+
+.date{
+text-align: center;
+}
+.event h1{
+  margin-bottom: 30px;
+}
+
+/*----- event ----*//*----- event ----*/
+
+/*----- section-2 ----*/
+.sec-2{
+  text-align: center;
+  background-color:#213E8C;
+  color: white;
+}
+
+.count{
+  font-size: 400%;
+  font-weight: 700;
+  color: white;
+}
+
+.count-caption{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+/*----- section-2 ----*/
+
+
+/*----- section-3 ----*/
+.sec-3{
+  background-color: #00BFAD;
+  color: white;
+  text-align: center;
+}
+
+/*----- section-3 ----*/
+
+/*----- section-4 ----*/
+.carousel-item{
+  padding: 50px;
+  
+}
+
+.sec-4{
+  margin-top: 13%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.sec-4-wrap{
+  padding: 30px;
+}
+
+/*----- section-4 ----*/
+
+
+
+
+/*----- section-5 ----*/
+
+.sec-5{
+
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("./img/anka\ charity\,\ join-us.jpg");
+  color: white;
+  text-align: center;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  
+}
+
+.join-us-text-box{
+  position: absolute;
+  top: 40%;
+  left:20%;
+  transform: translate(-50%,-50%);
+}
+
+.join-us-text-box h1{
+  font-weight: 600;
+}
+
+.join-us-btn{
+  position:absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+
+}
+
+.join-us-btn-in{
+  background-color: #EC5E87 !important;
+  border-color: #EC5E87 !important;
+  color: white !important;
+  width: 200px;
+  height: 50px;
+  border-style: none;
+  border-radius: 5px;
+
+
+}
+
+
+
+
+
+
+
+/* media queries-----*/
+
+@media only screen and (max-width: 1500px) {
+  .nav-wrap{
+      
+      left: 55%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .nav-wrap{
+      
+      left: 52%;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  .nav-wrap{
+      
+      left: 43%;
+  }
+}
+
+@media only screen and (max-width: 1135px) {
+  .nav-wrap{
+      
+      left: 37%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .nav-wrap{
+      
+      left: 35%;
+  }
+
+  .sec-4-wrap{
+      padding-top: 120px;
+      padding-bottom: -40px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+ 
+  
+  .nav-wrap{
+      position:unset;
+  }
+
+  .donate-btn{
+      display: none;
+  }
+
+  .join-us-text-box{
+      position: absolute;
+      top: 40%;
+      left:50%;
+      transform: translate(-50%,-50%);
+  }
+  
+  
+  
+  .join-us-btn{
+      position:absolute;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  
+  }
+}
+
+.navbar.navbar-expand-lg{
+  background-color: rgba(0,0,0,1);
+}
+
+@media only screen and (max-width: 656px) {
+  
+
+  .sec-4{
+      margin-top: 300px; 
+  }
+
+  .sec-1-text-box{
+      padding: 3em;
+     }
+
+     .icon-bar a{
+      
+     
+      
+      
+      
+      font-size: 5px;
+    }
+
+
+  
+ 
+}
+/* media queries-----*/
+
+
+
+/* -----animations-----*/
+
+@keyframes moveInLeft{
+  0%{
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80%{
+      transform: translateX(20px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+
+
+@keyframes moveInRight{
+  0%{
+      opacity: 0;
+      transform: translateX(100px);
+  }
+
+  80%{
+      transform: translateX(-20px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+/*--------- animations-----*/
+
+
+
+/*<!--social media icons -->*/
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 15px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.whatsapp{
+    background: #4CED68;
+    color: white;
+}
+
+/*<!--social media icons -->*/

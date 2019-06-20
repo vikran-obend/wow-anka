@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block header %}
+<header class="about-header">
+{% endblock header %}
+
+
+{% block header_last %}
+<div class="about-text-box">
+    <h1>Support Us</h1>
+    
+</div>
+
+
+</header>
+
+<section class="sec-1" style="background-color:white; color:black;">
+  <div class="sec-1-text-box">
+      <h2 class="sec-1-heading" style="font-family:'Dancing Script', cursive;">Get Involved</h2>
+      <p class="sec-1-para">Join hands with Anka Charity and become a volunteer to spread joy as much as you can. Where generosity and friendliness has no limits, volunteers at Anka Charity can go far and beyond to help serve people. Come, be a part of the Anka family!</p>
+      <a href="./index.html#eve"><button class="join-us-btn-in">See Our Events</button></a>
+  </div>
+
+</section>
+<section class="image-sec">
+<img src="{% static './img/anka-charity, orphanage.jpg' %}" class="img-fluid" alt="anka charity donation support us ">
+</section>
+
+<section class="sec-1" style="background-color:white; color:black;">
+<div class="sec-1-text-box">
+  <h2 class="sec-1-heading" style="font-family:'Dancing Script', cursive;">Let's Make A Change</h2>
+  <p class="sec-1-para">Here are some ways you can donate:</p>
+</div>
+
+<div class="support">
+  
+      <div class="row bottom-nav-in-support">
+        
+        <div class="col-sm first">
+           
+              <i class="fas fa-user"></i>
+              <h1>In Person</h1>
+              <p>Pavani, 1st cross, Swamy Vivekananda colony,</p>
+                <p>Near vrudhasharama, Gadikoppa, Shivamogga</p>
+                
+           
+        </div>
+          
+        <div class="col-sm middle">
+            
+                <i class="fab fa-internet-explorer"></i>
+                <h1>Online</h1>
+                <p>Make a tax deductible donation‏.</p>
+                <a href="./contact.html#bank"><button class="join-us-btn-in online">Click to Give</button></a>
+              
+          
+        </div>
+        <div class="col-sm last">
+            
+              <i class="fas fa-phone"></i>
+                <h1>Over the Phone</h1>
+                <p>It's easy to donate offline too.</p>
+                <p>+91 97394 63517</p>
+             
+          
+        </div>
+      </div>
+    
+  </div>
+<!--
+<div class="bottom-nav">
+  
+    <div class="row bottom-nav-in">
+      
+      <div class="col-sm first">
+        <i class="fas fa-user"></i>
+        <h1>In Person</h1>
+        <p>Pavani, 1st cross, Swamy Vivekananda colony,</p>
+          <p>Near vrudhasharama, Gadikoppa, Shivamogga</p>
+      </div>
+        
+      <div class="col-sm middle">
+        <i class="fab fa-internet-explorer"></i>
+                <h1>Online</h1>
+                <p>Make a tax deductible donation‏.</p>
+                <a href="./contact.html"><button class="join-us-btn-in online">Click to Give</button></a>
+        
+      </div>
+      <div class="col-sm last">
+        <i class="fas fa-phone"></i>
+                <h1>Over the Phone</h1>
+                <p>It's easy to donate offline too.</p>
+                <p>+91 97394 63517</p>
+        
+      </div>
+    </div>
+  
+</div>
+-->
+  
+</section>
+{% endblock header_last %}
