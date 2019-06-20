@@ -23,7 +23,7 @@ def index(request):
 
 
     
-    print(news_data)
+    
     u = Upcoming.objects.all()
 
     event_data=[]
